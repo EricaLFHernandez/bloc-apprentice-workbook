@@ -123,8 +123,11 @@
   ```
 
 8. Write a function `findLongestWord()` that takes an array of words and returns the length of the longest one.
+  http://jsbin.com/momahaqubu/edit?js,console
 9. Define a function `sum()` that sums all the numbers in an array of numbers. For example, `sum([1,2,3,4])` should return 10.
+  http://jsbin.com/joyivin/edit?js,console
 10. Write a function that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise.
+  http://jsbin.com/kuhenir/edit?js,console
 11. Write the correct line to make `"Woof!"` show up in the console based on this script:
 
   ```javascript
