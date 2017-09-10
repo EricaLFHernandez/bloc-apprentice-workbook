@@ -32,7 +32,7 @@
   <head>
     <meta charset="utf-8">
     <script src="/main.js"></script>
-    <link rel="stylesheet" src="main.css">
+    <link rel="stylesheet" src="/main.css">
   </head>
   <body>
   </body>
@@ -110,12 +110,20 @@
 
 ### Questions
 
-1. What is a function? What are they used for?
+1. What is a function? What are they used for?  
+  Functions contain code that is run when called. Functions are used to perform a task when needed without needing to re-write the same code.
+2. What is the difference between `==` and `===`?  
+  `==` checks for loose equality. It attempts to convert both values to the same type before comparing.  
+  `===` checks for strict equality. Both values must be exactly the same in order to return true. For example:  
+  `5 == '5'` returns true.  
+  `5 === '5'` returns false.  
   
-2. What is the difference between `==` and `===`?
-3. What is the difference between global and local scope variables?
-4. What is a boolean value?
-5. What is an array?
+3. What is the difference between global and local scope variables?  
+  Global scope variables can be accessed anywhere inside of the code. Local scope variables are declared inside of a function and can only be accessed within that function.  
+4. What is a boolean value?  
+  A boolean value is either true or false.
+5. What is an array?  
+  An array is a variable that can be divided into sections to store multiple values.
 
 ### Exercises
 
@@ -216,6 +224,7 @@ sayHello("Erica");
 ### Questions
 
 1. What is the command line and what is it used for?
+  
 2. What does the command `ls` do?
 3. What does the command `pwd` do?
 4. What does the following command do: `cd my-cool-project`
