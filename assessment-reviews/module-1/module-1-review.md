@@ -168,7 +168,7 @@ sayHello("Erica");
 
   console.log(result);
   ```
-  
+  `10`
 
 7. What would the following script log to the console?
 
@@ -187,6 +187,7 @@ sayHello("Erica");
 
   console.log(helloGoodbye("Sarah"));
   ```
+  `"Hello Sarah ! Goodbye Sarah !"`
 
 8. Write a function `findLongestWord()` that takes an array of words and returns the length of the longest one.
   http://jsbin.com/momahaqubu/edit?js,console
