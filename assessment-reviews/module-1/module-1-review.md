@@ -10,19 +10,32 @@
 
 ### Questions
 
-1. What is HTML and what is it used for? 
+1. What is HTML and what is it used for?  
   Hyper Text Markup Language. It's used to create the structural elements of a webpage.
 2. What is the difference between an ID and a class?  
   IDs are used to set the style of one specific element. Classes are used to set the style of many elements.
-3. What does it mean to write "semantic" HTML?
+3. What does it mean to write "semantic" HTML?  
   Semantic HTML uses elements that describe the content of the elements as often as possible.
 
 ### Exercises
 
-1. Write a paragraph tag with a class of "highlight" and content "Watch out!".
+1. Write a paragraph tag with a class of "highlight" and content "Watch out!".  
+  `<p class="highlight">Watch out!</p>`
 2. Write an HTML image tag to show an image called `profile-picture.jpg`.
+  `<img src="/profile-picture.jpg">`
 3. Write a link tag that links to http://google.com.
+  `<a href="http://google.com>Google</a>`
 5. Write an complete standard HTML document outline (including a DOCTYPE, and `<html>`, `<head>`, and `<body>` tags).
+  ```html
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+  </body>
+  </html>
+  ```
 6. Inside of the code for the previous exercise, write the appropriate tag to link to a script file called `main.js`.
 7. Inside of the code for the previous exercise, write the appropriate tag to link to a stylesheet file called `main.css`.
 8. Write a numbered list in HTML and list three of your favorite books.
