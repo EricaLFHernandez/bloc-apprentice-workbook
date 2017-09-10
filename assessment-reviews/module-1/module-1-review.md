@@ -101,8 +101,8 @@
   <p>Welcome to this awesome website!</p>
   ```
   ```css
-  .jumbotron p {
-    font-size: 20px;
+  header p {
+    font-size: 20 px;
   }
   ```
 
@@ -111,6 +111,7 @@
 ### Questions
 
 1. What is a function? What are they used for?
+  
 2. What is the difference between `==` and `===`?
 3. What is the difference between global and local scope variables?
 4. What is a boolean value?
@@ -118,10 +119,28 @@
 
 ### Exercises
 
-1. Write a line that declares a variable called `myName` and set its value to your name.
-2. Write a loop that logs the numbers 1 through 10 to the console.
+1. Write a line that declares a variable called `myName` and set its value to your name.   
+`var myName = "Erica Hernandez";`
+2. Write a loop that logs the numbers 1 through 10 to the console.  
+```js
+for (var i = 1; i <= 10; i++) {
+  console.log(i);
+}
+```
 3. Translate the following pseudocode into JavaScript: if `score` is greater than `3` and `lives` is greater than `0`, alert "You win!".
+```js
+if (score > 5 && lives > 0) {
+  alert("You win!");
+}
+```
 4. Write a function `sayHello` that takes one argument, a name, and logs "Hello, <name>!" to the console. Then, call the function below the function definition and pass in your name as the argument.
+```js
+function sayHello(name) {
+console.log("Hello, " + name + "!");
+}
+
+sayHello("Erica");
+```
 5. What would the following script log to the console?
 
   ```javascript
@@ -135,6 +154,8 @@
 
   console.log(currentSong);
   ```
+  
+`"Friday, Friday"`
 
 6. What would the following script log to the console?
 
@@ -147,6 +168,7 @@
 
   console.log(result);
   ```
+  
 
 7. What would the following script log to the console?
 
