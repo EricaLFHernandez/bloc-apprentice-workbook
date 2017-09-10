@@ -223,27 +223,38 @@ sayHello("Erica");
 
 ### Questions
 
-1. What is the command line and what is it used for?
-  
-2. What does the command `ls` do?
-3. What does the command `pwd` do?
+1. What is the command line and what is it used for?  
+  The command line allows users to interact with their computer by typing commands into the shell, as opposed to using a graphical user interface.  
+2. What does the command `ls` do?  
+  `ls` lists the contents of the current directory.
+3. What does the command `pwd` do?  
+  `pwd` prints the working directory.
 4. What does the following command do: `cd my-cool-project`
+  changes the current directory to my-cool-project.
 
 ### Exercises
 
-1. Write the command to make a new directory called "my-cool-project".
-2. Write the command to create a file called "index.html".
-3. Write the command to delete a file called "main.css".
+1. Write the command to make a new directory called "my-cool-project".  
+  `mkdir my-cool-project`
+2. Write the command to create a file called "index.html".  
+  `touch index.html`
+3. Write the command to delete a file called "main.css".  
+  `rm main.css`
 
 ## Git
 
 ### Questions
 
-1. What is Git and what is it used for?
-2. What's the difference between a local repository and a remote repository?
+1. What is Git and what is it used for?  
+  Git is a distributed version control system. It is used to allow multiple people to work on the same code at the same time.
+2. What's the difference between a local repository and a remote repository?  
+  A local repository is stored on a user's computer. A remote repository is stored on a central server. Users pull from and push changes made on their local repository to the remote repository.
 
 ### Exercises
 
 1. Write the command that you would use to create a new local Git repository.
+  `git init`
 2. Write the command to stage a file called `index.html` to be committed.
+  `git add index.html`
 3. Write the command to view the current status of the git repository.
+  `git status`
