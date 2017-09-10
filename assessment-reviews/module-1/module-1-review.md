@@ -10,9 +10,9 @@
 
 ### Questions
 
-1. What is HTML and what is it used for?
+1. What is HTML and what is it used for? 
   Hyper Text Markup Language. It's used to create the structural elements of a webpage.
-2. What is the difference between an ID and a class?
+2. What is the difference between an ID and a class?  
   IDs are used to set the style of one specific element. Classes are used to set the style of many elements.
 3. What does it mean to write "semantic" HTML?
   Semantic HTML uses elements that describe the content of the elements as often as possible.
