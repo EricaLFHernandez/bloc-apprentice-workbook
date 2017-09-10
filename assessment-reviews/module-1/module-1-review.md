@@ -64,17 +64,31 @@
 
 ### Questions
 
-1. What is CSS and what is it used for?
-2. What is the CSS box model?
-3. What's the difference between margin and padding?
+1. What is CSS and what is it used for?  
+  Cascading Style Sheets. CSS is used to style HTML.
+2. What is the CSS box model?  
+  The CSS box model is used to set the margins, border, and padding surrounding HTML content.
+3. What's the difference between margin and padding?  
+  A margin adds space outside of the border. Padding adds space between the content and the border.
 
 ### Exercises
 
 1. Write a CSS rule to make the text of all `h1` tags red.
+  ```css
+  h1 {
+    color: red;
+  }
+  ```
 2. Write a CSS rule to make the background color of the link with `class="btn"` blue:
 
   ```html
   <a href="#" class="btn">Learn more</a>
+  ```
+  
+  ```css
+    .btn {
+      background-color: blue;
+    }
   ```
 
 3. Write a CSS rule to give the first paragraph in the following HTML a font size of `20px`, but not the second paragraph.
@@ -85,6 +99,11 @@
   </header>
 
   <p>Welcome to this awesome website!</p>
+  ```
+  ```css
+  .jumbotron p {
+    font-size: 20px;
+  }
   ```
 
 ## JavaScript
