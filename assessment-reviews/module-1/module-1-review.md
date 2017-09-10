@@ -208,7 +208,7 @@ sayHello("Erica");
   ```
   `pet.speak();`
 
-12. Using the same script as above, write the correct line to log the dog's name to the console.
+12. Using the same script as above, write the correct line to log the dog's name to the console.  
 `console.log(pet.name);`
 
 ## Command Line
