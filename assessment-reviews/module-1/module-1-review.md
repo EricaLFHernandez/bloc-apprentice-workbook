@@ -29,13 +29,13 @@
   ```html
   <!DOCTYPE html>
   <html>
-  <head>
-    <meta charset="utf-8">
-    <script src="/main.js"></script>
-    <link rel="stylesheet" src="/main.css">
-  </head>
-  <body>
-  </body>
+    <head>
+      <meta charset="utf-8">
+      <script src="/main.js"></script>
+      <link rel="stylesheet" src="/main.css">
+    </head>
+    <body>
+    </body>
   </html>
   ```
 6. Inside of the code for the previous exercise, write the appropriate tag to link to a script file called `main.js`.
